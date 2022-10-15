@@ -8,7 +8,7 @@ from django.db.models import Q
 # Create your views here.
 # 이게 현재 시간과 요일 가져오는 것
 # 트랜스외국인이 돼야 한다면 순서 바꿔주면 됨
-days = ['월', '화', '수', '목', '금', '토', '일']
+days = [ '금', '토', '일', '월', '화', '수', '목',]
 now = datetime.now()
 now_date = now.date()
 now_time = now.time()
